@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "langflow": {
+      "command": "/opt/homebrew/bin/uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/taka392/langflow-mcp.git",
+        "langflow-mcp"
+      ],
+      "env": {
+        "LANGFLOW_BASE_URL": "http://127.0.0.1:7860",
+        "LANGFLOW_AUTO_LOGIN": "true",
+        "LANGFLOW_AUTO_API_KEY_NAME": "cursor-mcp"
+      }
+    }
+  }
+}
