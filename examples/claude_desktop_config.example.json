@@ -8,7 +8,7 @@
         "langflow-mcp"
       ],
       "env": {
-        "LANGFLOW_BASE_URL": "http://192.168.11.34:7860",
+        "LANGFLOW_BASE_URL": "http://192.168.11.35:7860",
         "LANGFLOW_AUTO_LOGIN": "true",
         "LANGFLOW_AUTO_API_KEY_NAME": "cursor-mcp"
       }
